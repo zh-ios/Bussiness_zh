@@ -1,0 +1,22 @@
+{
+  "name": "Bussiness_zh",
+  "version": "0.1.0",
+  "summary": "A short description of Bussiness_zh.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zh-ios/Bussiness_zh",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zh-ios": "zhuhao1@xiaomi.com"
+  },
+  "source": {
+    "git": "https://github.com/zh-ios/Bussiness_zh.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Bussiness_zh/Classes/**/*"
+}

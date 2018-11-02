@@ -1,0 +1,6 @@
+framework module CommonFunction_zhx {
+  umbrella header "CommonFunction_zhx-umbrella.h"
+
+  export *
+  module * { export * }
+}

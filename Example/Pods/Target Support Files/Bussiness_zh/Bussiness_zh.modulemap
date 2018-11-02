@@ -1,0 +1,6 @@
+framework module Bussiness_zh {
+  umbrella header "Bussiness_zh-umbrella.h"
+
+  export *
+  module * { export * }
+}

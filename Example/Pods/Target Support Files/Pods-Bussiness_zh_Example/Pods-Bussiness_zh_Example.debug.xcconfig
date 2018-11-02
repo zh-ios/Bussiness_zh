@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Bussiness_zh" "${PODS_CONFIGURATION_BUILD_DIR}/CommonFunction_zhx" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Bussiness_zh/Bussiness_zh.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/CommonFunction_zhx/CommonFunction_zhx.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh/MJRefresh.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Bussiness_zh" -framework "CommonFunction_zhx" -framework "MJRefresh"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
