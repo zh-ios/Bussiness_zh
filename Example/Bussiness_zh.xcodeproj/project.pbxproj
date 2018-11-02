@@ -17,7 +17,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		E04A184067F127C2FC83CEBA /* Pods_Bussiness_zh_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7E9C005FDCE27D91D6C48A /* Pods_Bussiness_zh_Example.framework */; };
-		F9DD0D72218BE53D0044ED11 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DD0D70218BE53D0044ED11 /* TestViewController.m */; };
+		F9DD0DBE218C3EDD0044ED11 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DD0DBD218C3EDD0044ED11 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,9 +60,9 @@
 		B4D45FB69C4FD9C5E981E9CF /* Bussiness_zh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Bussiness_zh.podspec; path = ../Bussiness_zh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB7E9C005FDCE27D91D6C48A /* Pods_Bussiness_zh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bussiness_zh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50FDC931D847F21C007AFF4 /* Pods_Bussiness_zh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bussiness_zh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9DD0D70218BE53D0044ED11 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = ../../TestViewController.m; sourceTree = "<group>"; };
-		F9DD0D71218BE53D0044ED11 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = ../../TestViewController.h; sourceTree = "<group>"; };
 		F9DD0D85218BEE960044ED11 /* BussinessPrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BussinessPrefixHeader.h; sourceTree = "<group>"; };
+		F9DD0DBC218C3EDD0044ED11 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = ../../Bussiness_zh/Classes/TestViewController.h; sourceTree = "<group>"; };
+		F9DD0DBD218C3EDD0044ED11 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = ../../Bussiness_zh/Classes/TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +119,9 @@
 				6003F59D195388D20070C39A /* ZHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZHViewController.h */,
-				F9DD0D71218BE53D0044ED11 /* TestViewController.h */,
-				F9DD0D70218BE53D0044ED11 /* TestViewController.m */,
 				6003F5A6195388D20070C39A /* ZHViewController.m */,
+				F9DD0DBC218C3EDD0044ED11 /* TestViewController.h */,
+				F9DD0DBD218C3EDD0044ED11 /* TestViewController.m */,
 				F9DD0D85218BEE960044ED11 /* BussinessPrefixHeader.h */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -294,7 +294,7 @@
 			files = (
 				6003F59E195388D20070C39A /* ZHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZHViewController.m in Sources */,
-				F9DD0D72218BE53D0044ED11 /* TestViewController.m in Sources */,
+				F9DD0DBE218C3EDD0044ED11 /* TestViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

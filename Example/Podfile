@@ -3,9 +3,11 @@ use_frameworks!
 
 target 'Bussiness_zh_Example' do
     
-    pod 'CommonFunction_zhx', '~> 1.0.0'
+#    pod 'CommonFunction_zhx', '~> 1.0.0'
     pod 'MJRefresh', '~> 3.1.15.7'
     
     pod 'Bussiness_zh', :path => '../'
     
 end
+
+

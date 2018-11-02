@@ -1,11 +1,11 @@
 PODS:
-  - Bussiness_zh (0.1.0)
+  - Bussiness_zh (1.0.0):
+    - CommonFunction_zhx (~> 1.0.0)
   - CommonFunction_zhx (1.0.0)
   - MJRefresh (3.1.15.7)
 
 DEPENDENCIES:
   - Bussiness_zh (from `../`)
-  - CommonFunction_zhx (~> 1.0.0)
   - MJRefresh (~> 3.1.15.7)
 
 SPEC REPOS:
@@ -18,10 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Bussiness_zh: a9d5e0dc4e7324287d2ea54a41126d43386d82af
+  Bussiness_zh: 39cd3088a9b69548764d659d48ca1e7d54f58b1b
   CommonFunction_zhx: 0024f30d8cc0d1393c588f3e13fd4747cc8b6529
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
 
-PODFILE CHECKSUM: ad3e26a317a20816fcbc1a05d0d7cf9c930da221
+PODFILE CHECKSUM: 44b3f41a097ad891fd32004528cb16e713014f7f
 
 COCOAPODS: 1.5.3
